@@ -1,0 +1,23 @@
+Pre process: 
+1. Remove the duplicates because of hashtags
+2. Remove the keyword RT and some symbols.
+
+
+Post processing:
+1. Run the debate data and check polarity and subjectivity of each participant in Debate.
+2. And also fro overall debate data.
+3. Try figuring out mentions by participants and polarity if possible.
+
+
+03/20/2020
+1. Using clustering, predict delegates based on features. (Soren)
+2. Popularity based on number of likes. (Think over this) fetching candidate tweet was about and adding likes per name (Soren)
+3. Analysis of transcripts. (Pranav) 
+4. Fetching meaningful words from tweet text, stem those words and then run similarity. (Han)
+5. Run polarity over most liked/least liked tweets of each candidate. (Pranav)
+6. Check frequent words from each candidate and run stemming and similarity to see if their words match. (Han)
+
+Ideas for feature extraction for regression:
+TF/IDF with n-gram
+word2vec
+sent2vec
